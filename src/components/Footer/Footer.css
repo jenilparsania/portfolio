@@ -1,0 +1,20 @@
+.Footer{
+    background-color: #0F172A;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-sub{
+    color: white;
+    font-weight: bold;
+}
+
+.footer-copyright{
+    font-size: small;
+    font-weight: normal;
+    color: gray;
+}
+
+.icon{
+    padding-left: 10px;
+}
