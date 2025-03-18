@@ -4,7 +4,7 @@ import Bootstrap from '../../assets/images/bootstrap.png';
 import CPP from '../../assets/images/c-.png';
 import Csharp from '../../assets/images/c-sharp.png';
 import CSS from '../../assets/images/css.png';
-import DSA from '../../assets/images/deep-learning.png';
+import DSA from '../../assets/images/structure.png';
 import Java from '../../assets/images/java.png';
 import JS from '../../assets/images/javascript.png';
 import C from '../../assets/images/letter-c.png';
@@ -32,7 +32,7 @@ import './IconPage.css';
 export default function IconPage(){
     return(
         <div className='skills-page'>
-            <div className='skills-title text-center'> Skills and Tech Stack </div>
+            <div className='skills-title text-center display-3'> Skills and Tech Stack </div>
 
             <div className='d-flex flex-wrap gap-3 offset-md-1'>
                 <Icon name={'HTML'} iconSrc={HTML}/>

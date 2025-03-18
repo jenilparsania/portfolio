@@ -1,4 +1,4 @@
-
+import './Trial.css'
 
 export default function Trial({ banner, title, description, github, demo }) {
   return (
@@ -22,7 +22,7 @@ export default function Trial({ banner, title, description, github, demo }) {
       <h4 className="text-white fw-bold mb-2" style={{ minHeight: "3rem" }}>
         {title}
       </h4>
-      <p className="text-gray-400 text-sm" style={{ flexGrow: 1 }}>
+      <p className="project-desc text-sm" style={{ flexGrow: 1 }}>
         {description}
       </p>
       <div className="mt-4 d-flex justify-content-start w-100">
