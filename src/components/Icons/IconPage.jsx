@@ -32,6 +32,7 @@ import './IconPage.css';
 export default function IconPage(){
     return(
         <div className='skills-page'>
+            
             <div className='skills-title text-center display-3'> Skills and Tech Stack </div>
 
             <div className='d-flex flex-wrap gap-3 justify-content-center'>

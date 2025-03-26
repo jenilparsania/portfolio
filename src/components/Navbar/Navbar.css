@@ -6,8 +6,8 @@
   .custom-navbar .nav-link {
     color: white ;
     font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-weight: normal;
+    /* text-transform: lowercase; */
     transition: color 0.3s ease;
   }
   
@@ -20,7 +20,5 @@
     font-size: 24px;
   }
   
-  .navbar-toggler-icon {
-    background-color: white; /* If you want to change the hamburger icon color */
-  }
+  
   

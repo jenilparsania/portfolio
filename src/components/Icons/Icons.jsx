@@ -2,7 +2,7 @@ import './Icons.css'
 export default function Icon({name, iconSrc}){
     return (
         <span 
-          className="d-flex flex-column align-items-center justify-content-center p-3 text-white"
+          className="icon-component d-flex flex-column align-items-center justify-content-center p-3 text-white"
           style={{ 
             borderRadius: "20px", 
             border: "0.5px solid rgb(51, 65, 85)", 

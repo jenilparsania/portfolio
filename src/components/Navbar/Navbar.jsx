@@ -33,7 +33,7 @@ const Navbar = () => {
               <a className="nav-link" href="#skills"  onClick={closeNavbar}>Skills</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#work"  onClick={closeNavbar}>Work Exp</a>
+              <a className="nav-link" href="#work"  onClick={closeNavbar}>Work</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#projects"  onClick={closeNavbar}>Projects</a>

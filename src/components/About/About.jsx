@@ -11,7 +11,7 @@ export  const About = () => {
     <div className='about'>
         <div className="about-inner row align-items-center text-center text-md-start">
             <div className="offset-md-1 col-md-3 d-flex justify-content-center">
-                <img src={myImage} alt="vfd" width={215} height={200} className="img-fluid" />
+                <img src={myImage} alt="vfd" width={230} height={215} className="img-fluid" />
             </div>
 
             <div className="col-md-8">
