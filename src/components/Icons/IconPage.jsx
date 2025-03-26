@@ -1,4 +1,4 @@
-import HTML from '../../assets/images/HTML.png';
+import HTML from '../../assets/images/html.png';
 import ASP from '../../assets/images/asp.net.png';
 import Bootstrap from '../../assets/images/bootstrap.png';
 import CPP from '../../assets/images/c-.png';
