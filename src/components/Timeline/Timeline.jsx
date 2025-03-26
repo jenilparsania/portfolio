@@ -3,45 +3,37 @@ import "./Timeline.css"; // Add custom styles
 
 const experiences = [
   {
-    title: "Associate Data Engineer",
-    company: "Shell, Bangalore",
-    duration: "July 2023 - Present",
+    title: "Software Developer Intern",
+    company: "Nova Scotia Build",
+    duration: "Jan 2025 - April 2025",
     description:
-      "Built end-to-end data pipelines using Azure SQL DB, PySpark, Databricks, and PowerBI for dashboards. Used DBT for ETL to populate a data lake in the Medallion Architecture.",
+      "I contribute to building a management application that enables managers to publish content for employees. I work on designing user-friendly interfaces, optimizing performance, and integrating Firebase for real-time database management, authentication, and cloud functions. As part of a cross-platform team, I help develop Android, iOS, and web versions for a seamless user experience.",
     side: "right",
   },
   {
-    title: "Data and AI Intern",
-    company: "Cognitive Garage, Delhi",
-    duration: "Jan 2023 - June 2023",
+    title: "Information Technology Tutor",
+    company: "NSCC Waterfront Campus",
+    duration: "Nov 2024 - Jan 2025",
     description:
-      "Analyzed transaction data for credit risk. Built an object detection model using YOLOv7 with 95% accuracy. Developed an RNN model for disease prediction based on symptoms.",
+      "I conducted one-on-one tutoring sessions for first-year IT Programming students, assessing their strengths and weaknesses to create personalized lesson plans. I simplified complex programming concepts to enhance understanding and provided constructive feedback to help students improve their skills. By monitoring their progress, I ensured they gained confidence and a solid foundation in programming.",
     side: "left",
   },
   {
-    title: "Data Science Intern",
-    company: "Lets Grow More, eLearning Company",
-    duration: "March 2022 - April 2022",
+    title: "Web Developer Intern",
+    company: "Cornerstone",
+    duration: "April 2024 - June 2024",
     description:
-      "Worked on ML and Deep Learning projects like Stock Market Prediction, Stacked LSTM, and a Music Recommendation System using TensorFlow and Sklearn.",
+      "I collaborated with a team to redesign and rebuild the company's website, improving its functionality, performance, and user experience. I explored ways to visualize GitHub collaboration in a classroom setting and developed responsive, user-friendly interfaces using HTML, CSS, and JavaScript. Additionally, I optimized website performance by implementing best practices in web design and development.",
     side: "right",
   },
-  {
-    title: "Machine Learning Application Developer",
-    company: "Technocolabs Softwares, Indore",
-    duration: "Feb 2022 - March 2022",
-    description:
-      "Performed EDA on a 3M+ entry H-1B visa dataset. Built an ML model using Random Forest with 85% accuracy and deployed it using Flask and Heroku.",
-    side: "left",
-  },
+  
 ];
 
 export default function Timeline() {
   return (
     <div className="timeline-container pt-20 pb-12">
-      <h3 className="text-white text-center text-3xl font-bold my-6">
-        Work Experience
-      </h3>
+      
+      <div className='work-heading text-center text-white display-3'> Experience </div>
       <div className="timeline mt-6">
         {experiences.map((exp, index) => (
           <div

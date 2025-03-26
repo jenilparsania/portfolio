@@ -5,4 +5,10 @@
 .project-main{
     background-color: #020617;
     padding-bottom: 15px;
+    
+}
+
+.project-sub{
+    max-width: 90vw;
+    margin: auto;
 }

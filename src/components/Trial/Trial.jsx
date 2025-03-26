@@ -26,7 +26,7 @@ export default function Trial({ banner, title, description, github, demo }) {
         {description}
       </p>
       <div className="mt-4 d-flex justify-content-start w-100">
-        <a
+        {github && (<a
           href={github}
           className="btn px-3 rounded me-2"
           target="_blank"
@@ -38,8 +38,10 @@ export default function Trial({ banner, title, description, github, demo }) {
           }}
         >
           GitHub
-        </a>
-        <a
+        </a>)}
+        
+        {demo &&(
+          <a
           href={demo}
           className="btn px-3 rounded"
           target="_blank"
@@ -51,6 +53,7 @@ export default function Trial({ banner, title, description, github, demo }) {
         >
           Demo
         </a>
+        )}
       </div>
     </div>
   );

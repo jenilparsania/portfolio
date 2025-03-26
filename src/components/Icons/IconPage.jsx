@@ -34,7 +34,7 @@ export default function IconPage(){
         <div className='skills-page'>
             <div className='skills-title text-center display-3'> Skills and Tech Stack </div>
 
-            <div className='d-flex flex-wrap gap-3 offset-md-1'>
+            <div className='d-flex flex-wrap gap-3 justify-content-center'>
                 <Icon name={'HTML'} iconSrc={HTML}/>
                 <Icon name={'CSS'} iconSrc={CSS}/>
                 <Icon name={'Bootstrap'} iconSrc={Bootstrap}/>

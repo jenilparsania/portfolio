@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; /* Aligns inner content */
+    margin-bottom: 13vh;
 }
 
 .home-name {
@@ -22,4 +23,22 @@
 .home-position{
     font-size: 3vh;
     color: white;
+}
+
+/* .lastname::selection{
+    color: #FFFFFF;
+    background-color: #0EA5E9;
+}
+
+.firstname::selection{
+    color: #0EA5E9;
+    background-color: #FFFFFF;
+} */
+
+i {
+    font-size: 3vh;  /* Adjust size of the icons */
+  }
+
+i:hover{
+    color: #0EA5E9 !important ;
 }

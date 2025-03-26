@@ -19,7 +19,7 @@ export default function Icon({name, iconSrc}){
           <img 
             src={iconSrc} 
             alt={name} 
-            style={{ height: "3rem", width: "3rem" }}
+            style={{ height: "3rem", width: "3rem" , marginBottom: "1vh" }}
           />
           <p className="skill-name text-center text-wrap mt-2">{name}</p>
           
