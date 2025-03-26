@@ -1,5 +1,4 @@
 import './Project.css'
-import Project1 from "../../assets/images/project-1.jpg"
 import Excalidraw from "../../assets/images/ai_excalidraw.jpeg"
 import Paytm from "../../assets/images/paytm.jpeg"
 import ECommerce from "../../assets/images/e-commerce.jpeg"

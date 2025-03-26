@@ -1,17 +1,15 @@
-import { useState } from 'react'
 
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 import { Home } from './components/Home/Home'
 import { About } from './components/About/About'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min'
-import Icon from './components/Icons/Icons';
-import HTML from './assets/images/HTML.png';
+
 import IconPage from './components/Icons/IconPage'
 import Project from './components/Project/Project'
 import Footer from './components/Footer/Footer'
-import Work from './components/Work/Work'
+
 import Timeline from './components/Timeline/Timeline'
 import Navbar from './components/Navbar/Navbar'
 
