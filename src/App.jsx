@@ -21,14 +21,7 @@ function App() {
     <>
       <div>
         
-        {/*  
-        <BrowserRouter>
-          <Routes>
-            <Route path='/home' element={<Home/>}/>
-          </Routes>
-        </BrowserRouter>
-
-        */}
+        
         <Navbar/>
         <section id='home'>
           <Home/>
