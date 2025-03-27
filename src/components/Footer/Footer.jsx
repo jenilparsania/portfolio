@@ -7,22 +7,22 @@ const Footer = () => {
       <p className="footer-tagline text-white font-weight-medium text-center">Connect with me</p>
       <ul className="socials-container list-unstyled d-flex justify-content-center gap-4 my-3">
         <li>
-          <a href="mailto:saumyagupta2025@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:parsaniajenil@gmail.com" target="_blank" rel="noopener noreferrer">
             <i className="fa-solid fa-envelope socials-icon text-white" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/jenilparsania" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-github socials-icon text-white" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/jenilparsania" target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-linkedin socials-icon text-white" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="2" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/__beyond_dreams" target="_blank" rel="">
             <i className="fa-brands fa-x-twitter socials-icon text-white" aria-hidden="true"></i>
           </a>
         </li>
