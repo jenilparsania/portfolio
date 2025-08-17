@@ -9,14 +9,14 @@ export  const About = () => {
 
     return (
     <div className='about'>
-        <div className="about-inner row align-items-center text-center text-md-start">
-            <div className="offset-md-1 col-md-3 d-flex justify-content-center">
+        <div className="about-inner row align-items-center">
+            <div className="col-12 col-md-3 d-flex justify-content-center mb-3 mb-md-0">
                 <img src={myImage} alt="vfd" width={230} height={215} className="img-fluid" />
             </div>
 
-            <div className="col-md-8">
+            <div className="intro-div col-12 col-md-8">
                 <span className="intro-heading fw-bold">{heading}</span> <br />
-                {intro}
+                <p className='intro-text'>{intro}</p>
             </div>
         </div>
 
