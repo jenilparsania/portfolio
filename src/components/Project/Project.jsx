@@ -7,6 +7,7 @@ import Laravel from "../../assets/images/laravel.jpeg"
 import GameAndroid from "../../assets/images/gaming-console.webp"
 import ContactiOS from "../../assets/images/contacts.jpeg"
 import Portfolio from "../../assets/images/portfolio.jpeg"
+import Healthcare from "../../assets/images/healthcare-dashboard.png"
 
 import Trial from '../Trial/Trial'
 
@@ -15,6 +16,13 @@ export default function Project(){
    
   // Array of project data
   const projects = [
+    {
+      banner : Healthcare,
+      title : "Healthcare Data Dashboard",
+      description : 
+      "This dashboard project simulates the work of a Decision Support Analyst by visualizing healthcare data trends relevant to Canada's public health system. Using public datasets from Health Canada, the project focuses on metrics such as patient wait times and appointment volumes across different regions and dates.",
+      github:"https://github.com/jenilparsania/healthcare-data-dashboard"
+    },
     {
       banner: Excalidraw,
       title: "Excalidraw Clone",
